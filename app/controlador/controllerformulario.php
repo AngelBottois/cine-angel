@@ -1,10 +1,6 @@
 <?php
 
 class controllerformulario{
-
-
-    
-
     // Metodo para comprobar el email
     public static function comprobarEmail($email){
         $correcto=false;
