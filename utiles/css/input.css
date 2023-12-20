@@ -1,0 +1,8 @@
+@tailwind base;
+
+@tailwind components;
+.header{
+    @apply container max-w-screen-xl mx-auto bg-transparent grid grid-cols-2 justify-between content-center py-14;
+}
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Urbanist:wght@200;400;500;600;700;800&display=swap');
