@@ -14,11 +14,13 @@ module.exports = {
         
       },
       colors: {
-       
+        fondohf: '#020510',
+        fondo: '#0A031C',
+        white: '#FFF',
       }
     },
     fontFamily: {
-      
+      'poppins': ['Poppins'],
     },
     fontSize:{
       precio: '60px',
