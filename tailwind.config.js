@@ -1,9 +1,41 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ['./*.{html,php}',
+  './assets/templates/*.{html,php}',
+  './assets/js/*.{html,js}',
+],
   theme: {
-    extend: {},
-  },
+    extend: {
+      maxWidth: {
+        'screen-2xl': '1600px',
+        'screen-xl': '1361px',
+      },
+      backgroundImage: {
+        
+      },
+      colors: {
+       
+      }
+    },
+    fontFamily: {
+      
+    },
+    fontSize:{
+      precio: '60px',
+      titulo: '50px',
+      subtitulo: '40px',
+      subtitulosmall: '30px',
+      letra: '18px',
+      letrasmall: '16px',
+    },
+    fontWidth:{
+      normal: '400',
+      bold: '700',
+    },
+    container: {
+      center: true,
+    },
+    },
   plugins: [],
 }
 
