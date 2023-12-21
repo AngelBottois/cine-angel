@@ -6,9 +6,9 @@
     <title>PlayOn</title>
     <link rel="stylesheet" href="./utiles/css/dist/output.css" type="text/css" />
 </head>
-<body>
+<body class="container max-w-screen-2xl mx-auto bg-fondohf text-white">
     <?php include './app/vista/inicio-header.php'; ?>
-    <main>
+    <main class="container max-w-screen-xl bg-fondo">
         <!-- Primera sección -->
         <section>
             <h1>Cartelera</h1>
